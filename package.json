@@ -7,20 +7,38 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "lint": "eslint . --fix"
   },
   "dependencies": {
     "expo": "~43.0.2",
+    "expo-barcode-scanner": "^11.1.2",
+    "expo-localization": "^11.0.0",
     "expo-status-bar": "~1.1.0",
+    "i18n-js": "^3.8.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
     "react-native-web": "0.17.1"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "@babel/core": "^7.12.9",
+    "@types/i18n-js": "^3.8.2",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.64.12",
+    "eslint": "^8.4.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "prettier": "2.5.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "~4.3.5"
   },
   "private": true
